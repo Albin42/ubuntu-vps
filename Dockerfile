@@ -44,7 +44,7 @@ RUN sed -ri 's|%sudo\tALL=\(ALL:ALL\) ALL|%sudo\tALL=\(ALL:ALL\) NOPASSWD: ALL|g
 WORKDIR /root
 
 # 设置开放端口
-EXPOSE 22
+EXPOSE 80
 
 # 启动命令
 CMD [ \
